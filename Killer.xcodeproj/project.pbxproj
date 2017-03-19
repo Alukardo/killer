@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D3175451D0BB3C100DFCD8D /* IPUnity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3175441D0BB3C100DFCD8D /* IPUnity.m */; };
+		0D469C4E1D20B36000E23C68 /* GameProccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D469C4D1D20B36000E23C68 /* GameProccessor.swift */; };
+		0D469C501D20C26000E23C68 /* PlaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D469C4F1D20C26000E23C68 /* PlaListViewController.swift */; };
+		0D95CF111D180E180008AB54 /* SerLIstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95CF101D180E180008AB54 /* SerLIstViewController.swift */; };
+		0D95CF131D1A0E740008AB54 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95CF121D1A0E740008AB54 /* Player.swift */; };
+		0D95CF151D1A19860008AB54 /* LogicUnity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95CF141D1A19860008AB54 /* LogicUnity.swift */; };
+		0D95CF171D1A32F70008AB54 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95CF161D1A32F70008AB54 /* Game.swift */; };
+		0DAAE14F1D288A3B0062B0FA /* VotingCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAAE14E1D288A3B0062B0FA /* VotingCounter.swift */; };
+		0DAE093C1D12C8D90032CFA3 /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE093B1D12C8D90032CFA3 /* Browser.swift */; };
 		0DAF397D1D0B9E9E00052F00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF397C1D0B9E9E00052F00 /* AppDelegate.swift */; };
-		0DAF397F1D0B9E9E00052F00 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF397E1D0B9E9E00052F00 /* FirstViewController.swift */; };
-		0DAF39811D0B9E9E00052F00 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF39801D0B9E9E00052F00 /* SecondViewController.swift */; };
 		0DAF39841D0B9E9E00052F00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAF39821D0B9E9E00052F00 /* Main.storyboard */; };
 		0DAF39861D0B9E9E00052F00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAF39851D0B9E9E00052F00 /* Assets.xcassets */; };
 		0DAF39891D0B9E9E00052F00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAF39871D0B9E9E00052F00 /* LaunchScreen.storyboard */; };
 		0DAF39941D0B9E9E00052F00 /* KillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF39931D0B9E9E00052F00 /* KillerTests.swift */; };
 		0DAF399F1D0B9E9E00052F00 /* KillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF399E1D0B9E9E00052F00 /* KillerUITests.swift */; };
+		0DAF39AF1D0B9F4200052F00 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF39AD1D0B9F4200052F00 /* FirstViewController.swift */; };
+		0DAF39B01D0B9F4200052F00 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF39AE1D0B9F4200052F00 /* SecondViewController.swift */; };
+		0DAF39B71D0B9FDE00052F00 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF39B21D0B9FDE00052F00 /* ysocket.swift */; };
+		0DAF39B81D0B9FDE00052F00 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF39B31D0B9FDE00052F00 /* ytcpsocket.c */; };
+		0DAF39B91D0B9FDE00052F00 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF39B41D0B9FDE00052F00 /* ytcpsocket.swift */; };
+		0DAF39BA1D0B9FDE00052F00 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF39B51D0B9FDE00052F00 /* yudpsocket.c */; };
+		0DAF39BB1D0B9FDE00052F00 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF39B61D0B9FDE00052F00 /* yudpsocket.swift */; };
+		0DAF39BE1D0BA0BF00052F00 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF39BD1D0BA0BF00052F00 /* Server.swift */; };
+		0DAF39C21D0BA2A400052F00 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF39C11D0BA2A400052F00 /* Client.swift */; };
+		0DF42A6B1D150AC7007B6A9B /* ChatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF42A6A1D150AC7007B6A9B /* ChatUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +52,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D00B1761D0EC5F500BB2324 /* IPAdress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAdress.h; sourceTree = "<group>"; };
+		0D3175431D0BB3C100DFCD8D /* IPUnity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IPUnity.h; path = ../IPUnity.h; sourceTree = "<group>"; };
+		0D3175441D0BB3C100DFCD8D /* IPUnity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IPUnity.m; path = ../IPUnity.m; sourceTree = "<group>"; };
+		0D469C4D1D20B36000E23C68 /* GameProccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameProccessor.swift; sourceTree = "<group>"; };
+		0D469C4F1D20C26000E23C68 /* PlaListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaListViewController.swift; sourceTree = "<group>"; };
+		0D95CF101D180E180008AB54 /* SerLIstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerLIstViewController.swift; sourceTree = "<group>"; };
+		0D95CF121D1A0E740008AB54 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		0D95CF141D1A19860008AB54 /* LogicUnity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogicUnity.swift; sourceTree = "<group>"; };
+		0D95CF161D1A32F70008AB54 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		0DAAE14E1D288A3B0062B0FA /* VotingCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VotingCounter.swift; sourceTree = "<group>"; };
+		0DAE093B1D12C8D90032CFA3 /* Browser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Browser.swift; sourceTree = "<group>"; };
 		0DAF39791D0B9E9E00052F00 /* Killer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Killer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DAF397C1D0B9E9E00052F00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DAF397E1D0B9E9E00052F00 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0DAF39801D0B9E9E00052F00 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0DAF39831D0B9E9E00052F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DAF39851D0B9E9E00052F00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DAF39881D0B9E9E00052F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +75,17 @@
 		0DAF399A1D0B9E9E00052F00 /* KillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KillerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DAF399E1D0B9E9E00052F00 /* KillerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillerUITests.swift; sourceTree = "<group>"; };
 		0DAF39A01D0B9E9E00052F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAF39AD1D0B9F4200052F00 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0DAF39AE1D0B9F4200052F00 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0DAF39B21D0B9FDE00052F00 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		0DAF39B31D0B9FDE00052F00 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		0DAF39B41D0B9FDE00052F00 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		0DAF39B51D0B9FDE00052F00 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		0DAF39B61D0B9FDE00052F00 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		0DAF39BD1D0BA0BF00052F00 /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		0DAF39C11D0BA2A400052F00 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		0DAF39C61D0BAB3D00052F00 /* Killer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Killer-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		0DF42A6A1D150AC7007B6A9B /* ChatUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +113,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D00B1751D0EB99800BB2324 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D95CF141D1A19860008AB54 /* LogicUnity.swift */,
+				0DAAE14E1D288A3B0062B0FA /* VotingCounter.swift */,
+				0D95CF161D1A32F70008AB54 /* Game.swift */,
+				0D95CF121D1A0E740008AB54 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0D469C4C1D20B2F800E23C68 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				0D469C4D1D20B36000E23C68 /* GameProccessor.swift */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
 		0DAF39701D0B9E9E00052F00 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +155,13 @@
 		0DAF397B1D0B9E9E00052F00 /* Killer */ = {
 			isa = PBXGroup;
 			children = (
+				0D469C4C1D20B2F800E23C68 /* Controler */,
+				0D00B1751D0EB99800BB2324 /* Model */,
+				0DAF39B11D0B9FDE00052F00 /* Socket */,
+				0DAF39BC1D0B9FFB00052F00 /* Networking */,
+				0DAF39AC1D0B9F4200052F00 /* ViewController */,
 				0DAF397C1D0B9E9E00052F00 /* AppDelegate.swift */,
-				0DAF397E1D0B9E9E00052F00 /* FirstViewController.swift */,
-				0DAF39801D0B9E9E00052F00 /* SecondViewController.swift */,
+				0DAF39C61D0BAB3D00052F00 /* Killer-Bridging-Header.h */,
 				0DAF39821D0B9E9E00052F00 /* Main.storyboard */,
 				0DAF39851D0B9E9E00052F00 /* Assets.xcassets */,
 				0DAF39871D0B9E9E00052F00 /* LaunchScreen.storyboard */,
@@ -126,6 +186,43 @@
 				0DAF39A01D0B9E9E00052F00 /* Info.plist */,
 			);
 			path = KillerUITests;
+			sourceTree = "<group>";
+		};
+		0DAF39AC1D0B9F4200052F00 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0DAF39AD1D0B9F4200052F00 /* FirstViewController.swift */,
+				0DAF39AE1D0B9F4200052F00 /* SecondViewController.swift */,
+				0D95CF101D180E180008AB54 /* SerLIstViewController.swift */,
+				0D469C4F1D20C26000E23C68 /* PlaListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0DAF39B11D0B9FDE00052F00 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				0DAF39B21D0B9FDE00052F00 /* ysocket.swift */,
+				0DAF39B31D0B9FDE00052F00 /* ytcpsocket.c */,
+				0DAF39B41D0B9FDE00052F00 /* ytcpsocket.swift */,
+				0DAF39B51D0B9FDE00052F00 /* yudpsocket.c */,
+				0DAF39B61D0B9FDE00052F00 /* yudpsocket.swift */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		0DAF39BC1D0B9FFB00052F00 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0D3175431D0BB3C100DFCD8D /* IPUnity.h */,
+				0D3175441D0BB3C100DFCD8D /* IPUnity.m */,
+				0D00B1761D0EC5F500BB2324 /* IPAdress.h */,
+				0DF42A6A1D150AC7007B6A9B /* ChatUser.swift */,
+				0DAF39BD1D0BA0BF00052F00 /* Server.swift */,
+				0DAF39C11D0BA2A400052F00 /* Client.swift */,
+				0DAE093B1D12C8D90032CFA3 /* Browser.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,21 +288,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = " qztcm09";
 				TargetAttributes = {
 					0DAF39781D0B9E9E00052F00 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = R9J7AUV43K;
+						LastSwiftMigration = 0800;
 					};
 					0DAF398E1D0B9E9E00052F00 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = R9J7AUV43K;
+						LastSwiftMigration = 0800;
 						TestTargetID = 0DAF39781D0B9E9E00052F00;
 					};
 					0DAF39991D0B9E9E00052F00 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = R9J7AUV43K;
+						LastSwiftMigration = 0800;
 						TestTargetID = 0DAF39781D0B9E9E00052F00;
 					};
 				};
@@ -262,9 +362,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DAF39811D0B9E9E00052F00 /* SecondViewController.swift in Sources */,
+				0D3175451D0BB3C100DFCD8D /* IPUnity.m in Sources */,
+				0DAAE14F1D288A3B0062B0FA /* VotingCounter.swift in Sources */,
+				0DAF39B91D0B9FDE00052F00 /* ytcpsocket.swift in Sources */,
+				0D469C501D20C26000E23C68 /* PlaListViewController.swift in Sources */,
+				0DAF39BE1D0BA0BF00052F00 /* Server.swift in Sources */,
+				0DAE093C1D12C8D90032CFA3 /* Browser.swift in Sources */,
+				0DAF39B01D0B9F4200052F00 /* SecondViewController.swift in Sources */,
+				0DAF39C21D0BA2A400052F00 /* Client.swift in Sources */,
+				0DF42A6B1D150AC7007B6A9B /* ChatUser.swift in Sources */,
 				0DAF397D1D0B9E9E00052F00 /* AppDelegate.swift in Sources */,
-				0DAF397F1D0B9E9E00052F00 /* FirstViewController.swift in Sources */,
+				0D469C4E1D20B36000E23C68 /* GameProccessor.swift in Sources */,
+				0DAF39B71D0B9FDE00052F00 /* ysocket.swift in Sources */,
+				0DAF39AF1D0B9F4200052F00 /* FirstViewController.swift in Sources */,
+				0DAF39B81D0B9FDE00052F00 /* ytcpsocket.c in Sources */,
+				0D95CF111D180E180008AB54 /* SerLIstViewController.swift in Sources */,
+				0DAF39BB1D0B9FDE00052F00 /* yudpsocket.swift in Sources */,
+				0D95CF171D1A32F70008AB54 /* Game.swift in Sources */,
+				0D95CF151D1A19860008AB54 /* LogicUnity.swift in Sources */,
+				0DAF39BA1D0B9FDE00052F00 /* yudpsocket.c in Sources */,
+				0D95CF131D1A0E740008AB54 /* Player.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,8 +450,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -360,6 +479,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -378,8 +498,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -398,6 +520,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -406,10 +530,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R9J7AUV43K;
 				INFOPLIST_FILE = Killer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qztc.Killer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Killer-Bridging-Header.h";
+				"SWIFT_OPTIMIZATION_LEVEL[arch=*]" = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -417,10 +550,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R9J7AUV43K;
 				INFOPLIST_FILE = Killer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qztc.Killer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Killer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -432,6 +573,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qztc.KillerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Killer.app/Killer";
 			};
 			name = Debug;
@@ -444,6 +586,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qztc.KillerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Killer.app/Killer";
 			};
 			name = Release;
@@ -455,6 +598,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qztc.KillerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Killer;
 			};
 			name = Debug;
@@ -466,6 +610,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qztc.KillerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Killer;
 			};
 			name = Release;
@@ -489,6 +634,7 @@
 				0DAF39A51D0B9E9E00052F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DAF39A61D0B9E9E00052F00 /* Build configuration list for PBXNativeTarget "KillerTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +643,7 @@
 				0DAF39A81D0B9E9E00052F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DAF39A91D0B9E9E00052F00 /* Build configuration list for PBXNativeTarget "KillerUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +652,7 @@
 				0DAF39AB1D0B9E9E00052F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
